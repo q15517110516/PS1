@@ -1,5 +1,6 @@
 package pkgMain;
 
+
 public class Rectangle {
 
 	private double Length;
@@ -17,7 +18,9 @@ public class Rectangle {
 	
 	public double Area()
 	{
+		double areaofrectangle = Length * Width;
+		
 		// TODO Implement Area() function with the correct formula
-		return 0;
+		return areaofrectangle;
 	}	
 }
